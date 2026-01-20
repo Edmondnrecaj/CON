@@ -1,0 +1,5 @@
+gcd(         0,         10) =         10 (expected         10)
+gcd(        10,          0) =         10 (expected         10)
+gcd(        54,         24) =          6 (expected          6)
+gcd(        54,         24) =          6 (expected          6)
+All tests completed successfully!

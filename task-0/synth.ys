@@ -1,0 +1,21 @@
+# Read source files
+read -sv2012 lfsr.sv
+read_verilog -lib lib/cmos_cells.v
+
+# Set top module
+hierarchy -check -top lfsr;
+
+# Synthesis
+synth;
+dfflibmap -liberty lib/cmos_cells.lib;
+abc -liberty lib/cmos_cells.lib;
+opt_clean;
+
+# Save netlist
+write_verilog -noattr _synth/lfsr_synthesized.v;
+
+# generate dot representation
+show -format dot -prefix _synth/lfsr_synth;
+
+# Print generic area information
+tee -o _synth/lfsr_synth.stats stat -liberty lib/cmos_cells.lib;

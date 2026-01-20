@@ -1,0 +1,22 @@
+# Read source files
+read -incdir src
+read -sv2012 _synth/sqrt.v
+read_verilog -lib lib/cmos_cells.v
+
+# Set top module
+hierarchy -check -top sqrt;
+
+# Synthesis
+synth;
+dfflibmap -liberty lib/cmos_cells.lib;
+abc -liberty lib/cmos_cells.lib;
+opt_clean;
+
+# Save netlist
+write_verilog -noattr _synth/sqrt_synthesized.v;
+
+# generate dot representation
+show -format dot -prefix _synth/sqrt_synth;
+
+# Print generic area information
+tee -o _synth/sqrt_synth.stats stat -liberty lib/cmos_cells.lib;

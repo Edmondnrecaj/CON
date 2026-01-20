@@ -1,0 +1,23 @@
+
+11. Printing statistics.
+
+=== gcd ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+     2013        - wires
+     2207        - wire bits
+       15        - public wires
+      209        - public wire bits
+        8        - ports
+      101        - port bits
+     2107     9729 cells
+      108     1944   DFFSR
+     1174     4696   NAND
+      614     2456   NOR
+      211      633   NOT
+
+   Chip area for module '\gcd': 9729.000000
+     of which used for sequential elements: 1944.000000 (19.98%)
+

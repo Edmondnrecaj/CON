@@ -1,0 +1,6 @@
+[console_scripts]
+riscvasm.py = asmlib.Tools.riscvasm:main
+riscvsim.py = asmlib.Tools.riscvsim:main
+toyasm-ng.py = asmlib.Tools.toyasm:main
+toysim-ng.py = asmlib.Tools.toysim:main
+
