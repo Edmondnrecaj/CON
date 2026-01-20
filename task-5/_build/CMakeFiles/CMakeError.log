@@ -1,0 +1,19 @@
+Determining if the function pcap_open exists failed with the following output:
+Change Dir: /home/xxx/Desktop/CON/con2526_g321/task-5/_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4880b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4880b.dir/build.make CMakeFiles/cmTC_4880b.dir/build
+gmake[1]: Entering directory '/home/xxx/Desktop/CON/con2526_g321/task-5/_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4880b.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++   -fsanitize=address -fstack-protector-all -Wall -Wextra -DCHECK_FUNCTION_EXISTS=pcap_open -std=c++14 -o CMakeFiles/cmTC_4880b.dir/CheckFunctionExists.cxx.o -c /home/xxx/Desktop/CON/con2526_g321/task-5/_build/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_4880b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4880b.dir/link.txt --verbose=1
+/usr/bin/c++ -fsanitize=address -fstack-protector-all -Wall -Wextra -DCHECK_FUNCTION_EXISTS=pcap_open CMakeFiles/cmTC_4880b.dir/CheckFunctionExists.cxx.o -o cmTC_4880b  /usr/lib/x86_64-linux-gnu/libpcap.so 
+/usr/bin/ld: CMakeFiles/cmTC_4880b.dir/CheckFunctionExists.cxx.o: in function `main':
+CheckFunctionExists.cxx:(.text+0x23): undefined reference to `pcap_open'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_4880b.dir/build.make:100: cmTC_4880b] Error 1
+gmake[1]: Leaving directory '/home/xxx/Desktop/CON/con2526_g321/task-5/_build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_4880b/fast] Error 2
+
+
+

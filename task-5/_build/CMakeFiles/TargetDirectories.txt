@@ -1,0 +1,11 @@
+/home/xxx/Desktop/CON/con2526_g321/task-5/_build/CMakeFiles/test.dir
+/home/xxx/Desktop/CON/con2526_g321/task-5/_build/CMakeFiles/edit_cache.dir
+/home/xxx/Desktop/CON/con2526_g321/task-5/_build/CMakeFiles/rebuild_cache.dir
+/home/xxx/Desktop/CON/con2526_g321/task-5/_build/src/CMakeFiles/pinger.dir
+/home/xxx/Desktop/CON/con2526_g321/task-5/_build/src/CMakeFiles/setcap.dir
+/home/xxx/Desktop/CON/con2526_g321/task-5/_build/src/CMakeFiles/test.dir
+/home/xxx/Desktop/CON/con2526_g321/task-5/_build/src/CMakeFiles/edit_cache.dir
+/home/xxx/Desktop/CON/con2526_g321/task-5/_build/src/CMakeFiles/rebuild_cache.dir
+/home/xxx/Desktop/CON/con2526_g321/task-5/_build/tests/CMakeFiles/test.dir
+/home/xxx/Desktop/CON/con2526_g321/task-5/_build/tests/CMakeFiles/edit_cache.dir
+/home/xxx/Desktop/CON/con2526_g321/task-5/_build/tests/CMakeFiles/rebuild_cache.dir

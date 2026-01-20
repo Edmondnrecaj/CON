@@ -1,0 +1,66 @@
+Start testing: Jan 13 18:12 CET
+----------------------------------------------------------
+1/3 Testing: arp.req.reply
+1/3 Test: arp.req.reply
+Command: "/usr/bin/cmake" "-D" "PROGRAM:STRING=/home/xxx/Desktop/CON/con2526_g321/task-5/_build/pinger" "-D" "ARGS:STRING=--respond;11:22:33:44:55:66;192.168.56.101" "-D" "INPUT_FILE:STRING=/home/xxx/Desktop/CON/con2526_g321/task-5/tests/arp.req.pcapng;--csv" "-D" "OUTPUT_FILE:STRING=arp.req.out.cap" "-D" "COMPARE_TOOL:STRING=diff;--strip-trailing-cr" "-D" "PRE_DELETE_COMPARE_FILES:BOOL=true" "-D" "COMPARE_FILES:STRING=arp.req.csv" "-D" "REFERENCE_FILES:STRING=/home/xxx/Desktop/CON/con2526_g321/task-5/tests/arp.req.reply.csv" "-D" "RETURN_VALUE:STRING=COMBINED" "-P" "/home/xxx/Desktop/CON/con2526_g321/task-5/cmake/scripts/run.cmake"
+Directory: /home/xxx/Desktop/CON/con2526_g321/task-5/_build/tests
+"arp.req.reply" start time: Jan 13 18:12 CET
+Output:
+----------------------------------------------------------
+-- [RUN] Deleting "arp.req.csv" before executing the program
+-- [RUN] Execution command: "/home/xxx/Desktop/CON/con2526_g321/task-5/_build/pinger"
+-- [RUN] Execution return code: 0
+-- [RUN] Comparing "/home/xxx/Desktop/CON/con2526_g321/task-5/tests/arp.req.reply.csv" with "arp.req.csv"
+-- [RUN] Comparision command: "diff --strip-trailing-cr /home/xxx/Desktop/CON/con2526_g321/task-5/tests/arp.req.reply.csv arp.req.csv"
+-- [RUN] Comparision return code: 0
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"arp.req.reply" end time: Jan 13 18:12 CET
+"arp.req.reply" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: arp.req.noreply
+2/3 Test: arp.req.noreply
+Command: "/usr/bin/cmake" "-D" "PROGRAM:STRING=/home/xxx/Desktop/CON/con2526_g321/task-5/_build/pinger" "-D" "ARGS:STRING=--respond;11:22:33:44:55:66;192.168.56.102" "-D" "INPUT_FILE:STRING=/home/xxx/Desktop/CON/con2526_g321/task-5/tests/arp.req.pcapng;--csv" "-D" "OUTPUT_FILE:STRING=arp.req.noreply.out.cap" "-D" "COMPARE_TOOL:STRING=diff;--strip-trailing-cr" "-D" "PRE_DELETE_COMPARE_FILES:BOOL=true" "-D" "COMPARE_FILES:STRING=arp.req.noreply.csv" "-D" "REFERENCE_FILES:STRING=/home/xxx/Desktop/CON/con2526_g321/task-5/tests/arp.req.noreply.csv" "-D" "RETURN_VALUE:STRING=COMBINED" "-P" "/home/xxx/Desktop/CON/con2526_g321/task-5/cmake/scripts/run.cmake"
+Directory: /home/xxx/Desktop/CON/con2526_g321/task-5/_build/tests
+"arp.req.noreply" start time: Jan 13 18:12 CET
+Output:
+----------------------------------------------------------
+-- [RUN] Deleting "arp.req.noreply.csv" before executing the program
+-- [RUN] Execution command: "/home/xxx/Desktop/CON/con2526_g321/task-5/_build/pinger"
+-- [RUN] Execution return code: 0
+-- [RUN] Comparing "/home/xxx/Desktop/CON/con2526_g321/task-5/tests/arp.req.noreply.csv" with "arp.req.noreply.csv"
+-- [RUN] Comparision command: "diff --strip-trailing-cr /home/xxx/Desktop/CON/con2526_g321/task-5/tests/arp.req.noreply.csv arp.req.noreply.csv"
+-- [RUN] Comparision return code: 0
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"arp.req.noreply" end time: Jan 13 18:12 CET
+"arp.req.noreply" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: arp.req+3xicmp_echo.reply
+3/3 Test: arp.req+3xicmp_echo.reply
+Command: "/usr/bin/cmake" "-D" "PROGRAM:STRING=/home/xxx/Desktop/CON/con2526_g321/task-5/_build/pinger" "-D" "ARGS:STRING=--respond;11:22:33:44:55:66;192.168.56.101" "-D" "INPUT_FILE:STRING=/home/xxx/Desktop/CON/con2526_g321/task-5/tests/arp.req+3xicmp_echo.pcapng;--csv" "-D" "OUTPUT_FILE:STRING=arp.req+3xicmp_echo.out.cap" "-D" "COMPARE_TOOL:STRING=diff;--strip-trailing-cr" "-D" "PRE_DELETE_COMPARE_FILES:BOOL=true" "-D" "COMPARE_FILES:STRING=arp.req+3xicmp_echo.csv" "-D" "REFERENCE_FILES:STRING=/home/xxx/Desktop/CON/con2526_g321/task-5/tests/arp.req+3xicmp_echo.reply.csv" "-D" "RETURN_VALUE:STRING=COMBINED" "-P" "/home/xxx/Desktop/CON/con2526_g321/task-5/cmake/scripts/run.cmake"
+Directory: /home/xxx/Desktop/CON/con2526_g321/task-5/_build/tests
+"arp.req+3xicmp_echo.reply" start time: Jan 13 18:12 CET
+Output:
+----------------------------------------------------------
+-- [RUN] Deleting "arp.req+3xicmp_echo.csv" before executing the program
+-- [RUN] Execution command: "/home/xxx/Desktop/CON/con2526_g321/task-5/_build/pinger"
+-- [RUN] Execution return code: 0
+-- [RUN] Comparing "/home/xxx/Desktop/CON/con2526_g321/task-5/tests/arp.req+3xicmp_echo.reply.csv" with "arp.req+3xicmp_echo.csv"
+-- [RUN] Comparision command: "diff --strip-trailing-cr /home/xxx/Desktop/CON/con2526_g321/task-5/tests/arp.req+3xicmp_echo.reply.csv arp.req+3xicmp_echo.csv"
+-- [RUN] Comparision return code: 0
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"arp.req+3xicmp_echo.reply" end time: Jan 13 18:12 CET
+"arp.req+3xicmp_echo.reply" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 13 18:12 CET

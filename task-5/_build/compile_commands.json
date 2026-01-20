@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/xxx/Desktop/CON/con2526_g321/task-5/_build/src",
+  "command": "/usr/bin/c++  -I/home/xxx/Desktop/CON/con2526_g321/task-5/src -fsanitize=address -fstack-protector-all -Wall -Wextra -g -std=c++14 -o CMakeFiles/pinger.dir/icmp/icmp.cpp.o -c /home/xxx/Desktop/CON/con2526_g321/task-5/src/icmp/icmp.cpp",
+  "file": "/home/xxx/Desktop/CON/con2526_g321/task-5/src/icmp/icmp.cpp"
+},
+{
+  "directory": "/home/xxx/Desktop/CON/con2526_g321/task-5/_build/src",
+  "command": "/usr/bin/c++  -I/home/xxx/Desktop/CON/con2526_g321/task-5/src -fsanitize=address -fstack-protector-all -Wall -Wextra -g -std=c++14 -o CMakeFiles/pinger.dir/layer_internet/arp.cpp.o -c /home/xxx/Desktop/CON/con2526_g321/task-5/src/layer_internet/arp.cpp",
+  "file": "/home/xxx/Desktop/CON/con2526_g321/task-5/src/layer_internet/arp.cpp"
+},
+{
+  "directory": "/home/xxx/Desktop/CON/con2526_g321/task-5/_build/src",
+  "command": "/usr/bin/c++  -I/home/xxx/Desktop/CON/con2526_g321/task-5/src -fsanitize=address -fstack-protector-all -Wall -Wextra -g -std=c++14 -o CMakeFiles/pinger.dir/layer_internet/ipv4.cpp.o -c /home/xxx/Desktop/CON/con2526_g321/task-5/src/layer_internet/ipv4.cpp",
+  "file": "/home/xxx/Desktop/CON/con2526_g321/task-5/src/layer_internet/ipv4.cpp"
+},
+{
+  "directory": "/home/xxx/Desktop/CON/con2526_g321/task-5/_build/src",
+  "command": "/usr/bin/c++  -I/home/xxx/Desktop/CON/con2526_g321/task-5/src -fsanitize=address -fstack-protector-all -Wall -Wextra -g -std=c++14 -o CMakeFiles/pinger.dir/layer_link/ethernet.cpp.o -c /home/xxx/Desktop/CON/con2526_g321/task-5/src/layer_link/ethernet.cpp",
+  "file": "/home/xxx/Desktop/CON/con2526_g321/task-5/src/layer_link/ethernet.cpp"
+},
+{
+  "directory": "/home/xxx/Desktop/CON/con2526_g321/task-5/_build/src",
+  "command": "/usr/bin/c++  -I/home/xxx/Desktop/CON/con2526_g321/task-5/src -fsanitize=address -fstack-protector-all -Wall -Wextra -g -std=c++14 -o CMakeFiles/pinger.dir/logging.cpp.o -c /home/xxx/Desktop/CON/con2526_g321/task-5/src/logging.cpp",
+  "file": "/home/xxx/Desktop/CON/con2526_g321/task-5/src/logging.cpp"
+},
+{
+  "directory": "/home/xxx/Desktop/CON/con2526_g321/task-5/_build/src",
+  "command": "/usr/bin/c++  -I/home/xxx/Desktop/CON/con2526_g321/task-5/src -fsanitize=address -fstack-protector-all -Wall -Wextra -g -std=c++14 -o CMakeFiles/pinger.dir/main.cpp.o -c /home/xxx/Desktop/CON/con2526_g321/task-5/src/main.cpp",
+  "file": "/home/xxx/Desktop/CON/con2526_g321/task-5/src/main.cpp"
+}
+]

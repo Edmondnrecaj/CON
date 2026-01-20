@@ -1,0 +1,4 @@
+arp.req.reply 2 0.0170349
+arp.req.noreply 2 0.017688
+arp.req+3xicmp_echo.reply 2 0.0176861
+---
